@@ -2,6 +2,10 @@
 	color: #00468b;
 }
 
+.c-default {
+	color: #fff;
+}
+
 .c-yellow {
 	color: #ffd30a;
 }
@@ -79,7 +83,7 @@
 	background-size: cover;
 }
 
-.section-banner .content-banner .content-logo {
+.content-logo {
 	position: absolute;
 	right: 0;
 }
@@ -233,4 +237,77 @@
 
 .content-socials-icons ul li .icon {
 	vertical-align: inherit;
+}
+
+/* Landing 2 */
+.banner-landing2  {
+	position: relative;
+}
+
+.banner-landing2 img {
+	width: 100%;
+}
+
+.banner-landing2 .content-info-top {
+	position: absolute;
+	padding: 100px 0;
+	text-align: center;
+	top: 0;
+	right: 0;
+	left: 0;
+	max-width: 65%;
+	margin: 0 auto;
+}
+
+.banner-landing2 .content-info-top h2 {
+	font-size: 52px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+	margin: 0;
+}
+
+.banner-landing2 .content-info-top h1 {
+	font-size: 200px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 150px;
+	letter-spacing: 30px;
+	margin-bottom: 30px;
+}
+
+.banner-landing2 .content-info-top hr {
+	border-top: 4px solid #fff;
+}
+
+.banner-landing2 .content-info-top p {
+	font-size: 24px;
+	color: #fff;
+	line-height: 28px;
+	margin-bottom: 50px;
+}
+
+.banner-landing2 .content-info-top .btn {
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
+.banner-landing2 .content-info-bottom {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	max-width: 65%;
+	margin: 0 auto;
+	padding: 50px;
+	margin-bottom: 20px;
+}
+
+.banner-landing2 .content-info-bottom .section-btn-prom {
+	padding: 60px 0;
+	text-align: center;
+}
+
+.banner-landing2 .content-info-bottom .section-btn-prom .btn {
+	font-size: 30px;
 }
