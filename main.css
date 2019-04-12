@@ -128,6 +128,11 @@
 	background-position: center;
 }
 
+.landing-banner8 {
+	background-image: url('img/banner-8.png');
+	background-position: center;
+}
+
 .section-banner .content-banner {
 	position: relative;
 	height: 400px;
@@ -526,4 +531,9 @@
 }
 .content-honor .content-text-honor p {
 	margin: 10px 0;
+}
+
+/* LAnding 8*/
+.content-utils-table {
+	padding: 30px 0;
 }
