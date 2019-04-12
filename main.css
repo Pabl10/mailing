@@ -10,6 +10,10 @@
 	color: #ffd30a;
 }
 
+.c-grey {
+	color: #666666;
+}
+
 .b-b {
 	border-bottom: 1px solid #ffd30a;
 }
@@ -20,6 +24,14 @@
 
 .bc-primary {
 	background-color: #fafafa;
+}
+
+.bc-default {
+	background-color: #fff;
+}
+
+.bc-row {
+	background-color: #f0f0f0;
 }
 
 .f-10 {
@@ -46,6 +58,10 @@
 .c-p {
 	color: #bcbcbc;
 	font-size: 16px;
+}
+
+.custom-m-bottom-row {
+	margin-bottom: 30px;
 }
 
 .p-30 {
@@ -100,7 +116,11 @@
 }
 
 .landing-banner5 {
-	background-image: url('img/banner-5.png');
+	background-image: url('img/banner-5.jpg');
+}
+
+.landing-banner6 {
+	background-image: url('img/banner-6.png');	
 }
 
 .section-banner .content-banner {
@@ -428,11 +448,25 @@
 	margin: 15px 0;
 }
 
-/* Landin 5*/
+/* Landing 5*/
 .utils-banner {
 	background-color: #6f6f6f;
 	border-top: 1px solid #ffd30a;
 	padding: 30px;
 	color: #fff;
 	margin: 20px 0;
+}
+
+
+/* Landing 6*/
+.content-header-title {
+	margin: 0 -30px -15px -30px;
+	background-color: #6f6f6f;
+	text-align: left;
+	padding: 50px 20px;
+	color: #fff;
+}
+
+.content-dates .title-row {
+	margin: 12px 0;
 }
