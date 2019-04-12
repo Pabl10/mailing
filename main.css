@@ -83,8 +83,12 @@
 	background-image: url('img/banner-1.png');
 }
 
-.landing-banner2 {
+.landing-banner3 {
 	background-image: url('img/banner-3.jpg');	
+}
+
+.landing-banner4 {
+	background-image: url('img/banner-4.png');
 }
 
 .section-banner .content-banner {
@@ -347,4 +351,71 @@
 
 .section-message {
 	padding: 50px 0;
+}
+
+/*Landing 4 */
+.content-imprent h1 {
+	font-size: 60px;
+	margin-bottom: 10px;
+	color: #ffd30a;
+}
+.content-imprent p {
+	color: #fff;
+	margin: 0;
+	font-size: 24px;
+	line-height: 24px;
+}
+
+.section-utils-imprent {
+	padding: 30px;
+}
+
+.section-utils-imprent h4 {
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.section-utils-imprent .content-target {
+	max-width: 30%;
+	margin: 0 auto;
+	display: flex;
+	padding: 20px 0;
+}
+
+.section-utils-imprent .content-target .content-icon-target {
+	background-color: #ffd30a;
+	display: inline-block;
+	padding: 30px 15px;
+	margin-right: 5px;
+}
+
+.section-utils-imprent .content-target .content-icon-target .target {
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-utils-imprent .content-target .content-inputs {
+	display: inline-block;
+}
+
+.section-utils-imprent .content-target .content-inputs .form-control {
+	padding: 12px;
+	text-align: center;
+	background-color: #ebebeb;
+	font-weight: bold;
+	border-radius: 0;
+}
+
+.utils-logo {
+	padding: 10px 0;
+	text-align: center;
+}
+
+.utils-logo img {
+	width: 50px;
+}
+.utils-text {
+	margin: 15px 0;
 }
