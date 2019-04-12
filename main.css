@@ -123,6 +123,11 @@
 	background-image: url('img/banner-6.png');	
 }
 
+.landing-banner7 {
+	background-image: url('img/banner-7.png');
+	background-position: center;
+}
+
 .section-banner .content-banner {
 	position: relative;
 	height: 400px;
@@ -473,4 +478,52 @@
 
 .content-text-sucursal {
 	padding: 30px;
+}
+
+/* Landing 7*/
+.content-table {
+	max-width: 50%;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+.content-table .content-title-table {
+	padding: 15px;
+}
+
+.content-table .content-text-table {
+	padding: 10px 20px;
+}
+
+.content-utils-table .utils-text {
+	margin: 20px;
+}
+
+.content-utils-table .utils-logo img {
+	width: auto;
+}
+
+.content-description-table {
+	text-align: center;
+	max-width: 80%;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+
+.content-honor {
+	max-width: 45%;
+	margin: 0 auto;
+	padding: 20px;
+	display: flex;
+}
+
+.content-honor .content-img-honor {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.content-honor .content-text-honor {
+	display: inline-block;
+}
+.content-honor .content-text-honor p {
+	margin: 10px 0;
 }
