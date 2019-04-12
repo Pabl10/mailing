@@ -2,6 +2,10 @@
 	color: #00468b;
 }
 
+.c-yellow {
+	color: #ffd30a;
+}
+
 .bc-grey {
 	background-color: #6f6f6f;
 }
@@ -25,6 +29,10 @@
 .title {
 	font-weight: bold;
 	font-size: 30px;
+}
+.line {
+	height: 1px;
+	margin: 50px 0;
 }
 
 .c-p {
@@ -52,8 +60,15 @@
 	padding: 20px 0;
 }
 
+.content-header p {
+	font-size: 18px;
+	color: #00468b;
+	font-weight: bold;
+}
+
 .section-banner {
 	padding: 15px;
+	margin: 0 -15px;
 }
 
 .section-banner .content-banner {
@@ -108,6 +123,23 @@
 	text-align: center;
 }
 
+.section-buy-desc {
+	padding: 50px 0;
+	position: relative;
+}
+
+.section-buy-desc .content-info-banner {
+	position: absolute;
+	top: 0;
+	margin-top: 50px;
+	padding: 40px 50px;
+	color: #fff;
+}
+
+.section-buy-desc .content-info-banner h1 {
+	font-size: 48px;
+}
+
 .section-desc .content-logo-nike {
     position: absolute;
     top: 15px;
@@ -141,4 +173,64 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.content-desc-img img {
+	border-radius: 10px;
+}
+
+.content-info-desc {
+	position: absolute;
+	bottom: 0;
+	padding: 15px 30px;
+}
+
+.content-info-desc h1 {
+	font-size: 90px;
+	color: #ffd30a;
+	margin:0;
+}
+
+.content-info-desc p {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.content-info-desc h4 {
+	font-size: 18px;
+	color: #ffd30a;
+}
+
+.content-btn-prom {
+	padding: 50px 0;
+	text-align: center;
+}
+
+.content-btn-prom .btn {
+	text-transform: uppercase;
+	font-size: 38px;
+}
+
+.content-socials-icons {
+	text-align: center;
+}
+
+.content-socials-icons ul {
+	padding: 0;
+	list-style: none;
+}
+
+.content-socials-icons h4 {
+	margin-bottom: 30px;
+}
+
+.content-socials-icons ul li {
+	display: inline-block;
+	padding: 0 25px;
+	border-right: 1px solid;
+	height: 20px;
+}
+
+.content-socials-icons ul li .icon {
+	vertical-align: inherit;
 }
