@@ -10,6 +10,10 @@
 	color: #ffd30a;
 }
 
+.b-b {
+	border-bottom: 1px solid #ffd30a;
+}
+
 .bc-grey {
 	background-color: #6f6f6f;
 }
@@ -75,8 +79,15 @@
 	margin: 0 -15px;
 }
 
-.section-banner .content-banner {
+.landing-banner1 {
 	background-image: url('img/banner-1.png');
+}
+
+.landing-banner2 {
+	background-image: url('img/banner-3.jpg');	
+}
+
+.section-banner .content-banner {
 	position: relative;
 	height: 400px;
 	background-repeat: no-repeat;
@@ -310,4 +321,30 @@
 
 .banner-landing2 .content-info-bottom .section-btn-prom .btn {
 	font-size: 30px;
+}
+
+/* Landing 3*/
+.content-info-important {
+	padding: 30px;
+}
+
+.content-desc-title {
+	margin:0 30px;
+}
+
+.content-desc-title .title-info {
+	font-size: 26px;
+	color: #fff;
+	margin: 0;
+}
+
+.content-desc-title .subtitle-info {
+	text-transform: uppercase;
+	color: #ffd30a;
+	font-size: 10rem;
+	line-height: 10rem;
+}
+
+.section-message {
+	padding: 50px 0;
 }
