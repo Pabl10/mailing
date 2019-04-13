@@ -1,3 +1,23 @@
+
+@font-face {
+	font-family: "Helvetica-bold";
+	src: url("fonts/Helvetica-Bold-Font.ttf");
+}
+
+@font-face {
+	font-family: "Helvetica";
+	src: url("fonts/Helvetica.ttf");
+}
+
+p {
+	font-family: 'Helvetica';
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Helvetica-bold';
+}
+
 .c-blue {
 	color: #00468b;
 }
@@ -30,6 +50,10 @@
 	background-color: #fff;
 }
 
+.bc-color-arrow {
+	background-color: #f9f9f9;
+}
+
 .bc-row {
 	background-color: #f0f0f0;
 }
@@ -60,8 +84,8 @@
 	font-size: 16px;
 }
 
-.custom-m-bottom-row {
-	margin-bottom: 30px;
+.custom-m-top-row {
+	margin-top: 30px;
 }
 
 .p-30 {
@@ -132,6 +156,12 @@
 	background-image: url('img/banner-8.png');
 	background-position: center;
 }
+
+.landing-banner9 {
+	background-image: url('img/banner-9.png');
+	background-position: center;
+}
+
 
 .section-banner .content-banner {
 	position: relative;
@@ -207,6 +237,14 @@
     right: 30px;
     padding: 20px;
 }
+
+.section-desc .desc-price {
+	position: absolute;
+	top: 20px;
+	background-color: #12498b;
+	color: #fff;
+	padding: 15px;
+} 
 
 .section-desc .content-info {
 	padding-top: 50px;
@@ -288,7 +326,7 @@
 .content-socials-icons ul li {
 	display: inline-block;
 	padding: 0 25px;
-	border-right: 1px solid;
+	border-right: 1px solid rgba(0, 0, 0, 0.1);
 	height: 20px;
 }
 
@@ -335,6 +373,7 @@
 
 .banner-landing2 .content-info-top hr {
 	border-top: 4px solid #fff;
+	max-width: 80%;
 }
 
 .banner-landing2 .content-info-top p {
@@ -387,8 +426,8 @@
 .content-desc-title .subtitle-info {
 	text-transform: uppercase;
 	color: #ffd30a;
-	font-size: 10rem;
-	line-height: 10rem;
+	font-size: 9rem;
+	line-height: 9rem;
 }
 
 .section-message {
@@ -536,4 +575,33 @@
 /* LAnding 8*/
 .content-utils-table {
 	padding: 30px 0;
+}
+
+/* LAnding 9*/
+.content-info-details {
+	text-align: center;
+}
+
+.content-info-details .logo-details {
+	background-color: #f4f5fa;
+	border-radius: 50%;
+	padding: 20px;
+	max-width: 30%;
+	margin: 0 auto;
+}
+
+.content-tips .line {
+	margin: 5px;
+	max-width: 8%;
+	margin:0 auto;
+	border-top: 2px solid #fcd202;
+}
+
+.section-tips {
+	text-align: center;
+	padding: 30px 0;
+}
+
+.section-tips ul {
+	display: inline-block;
 }
